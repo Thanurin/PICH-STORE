@@ -1,0 +1,65 @@
+body {
+    background-image:url(./My\ Project/pexels-padrinan-19670.jpg) ;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    box-shadow: 1px 1px  white;
+}
+h1 {
+    text-align: center;
+    font-family: 'Khmer OS Muol Light', sans-serif;
+}
+span {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+    body {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-out forwards;
+    }
+    body :nth-child(1) { animation-delay: 0.2s; }
+    body :nth-child(2) { animation-delay: 0.4s; }
+    body :nth-child(3) { animation-delay: 0.6s; }
+    body :nth-child(4) { animation-delay: 0.8s; }
+    body :nth-child(5) { animation-delay: 1s; }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    img {
+        width: 200px;
+        height: auto;
+        border-radius: 100px 100px;
+    }
+    footer {
+        color: black;
+        margin-top: 20px;
+        border-top: 1px solid gray;
+        font-size: 20px;
+        font-style: italic;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    button {
+        background-color: blue;
+        font-family: 'Khmer OS Muol Light',sans-serif;
+        color: white;
+        padding: 10px;
+        border-radius: 10px 30px;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    button:hover {
+        background-color: red;
+        
+    }

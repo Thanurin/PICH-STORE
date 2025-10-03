@@ -1,0 +1,93 @@
+body {
+    background-image: url(./My\ Project/pexels-padrinan-19670.jpg);
+    background-size: cover;
+    box-shadow: 1px 1px white;
+}
+h1 {
+    color: red;
+    text-align: center;
+    font-family: 'Khmer OS Muol Light',sans-serif;
+}
+    body {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-out forwards;
+    }
+    body :nth-child(1) { animation-delay: 0.2s; }
+    body :nth-child(2) { animation-delay: 0.4s; }
+    body :nth-child(3) { animation-delay: 0.6s; }
+    body :nth-child(4) { animation-delay: 0.8s; }
+    body :nth-child(5) { animation-delay: 1s; }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+ul {
+    font-family: 'Khmer OS Metal Chrieng',sans-serif;
+    font-size: 20px;
+}
+h2 {
+    font-family: 'Khmer OS Niroth',sans-serif;
+    color: blue;
+}
+    footer {
+        color: black;
+        margin-top: 20px;
+        border-top: 1px solid gray;
+        font-size: 20px;
+        font-style: italic;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+#first {
+    background-color: blue;
+    font-family: 'Khmer OS Muol Light',sans-serif;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 30px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+#first:hover {
+    background-color: red;
+}
+#second {
+    background-color: blue;
+    font-family: 'Khmer OS Muol Light',sans-serif;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 30px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+#second:hover {
+    background-color: red;
+}
+button {
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 30px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+button:hover {
+    background-color: red;
+        
+}
